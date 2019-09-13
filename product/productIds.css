@@ -1,0 +1,150 @@
+/* CSS page Id(s): product.html  */
+/* main page section */
+#main-art1, #main-art2, #main-art3, #form-div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#div-art1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#art1-div1 {
+  width: 45%;
+  height: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 5px;
+}
+
+#art1-div2 {
+  width: 45%;
+  height: 50%;
+  padding-top: 5px;
+  padding-left: 5%;
+}
+
+#art1-sec2 {
+  padding-left: 1%;
+}
+
+#art1-sec2 ol {
+  list-style-type: decimal-leading-zero;
+}
+/* article 2 section */
+#main-art2 {
+  padding-top: 10px;
+}
+
+#main-art2 h4 {
+  text-align: center;
+  border-bottom: 1px solid hsla(0, 0%, 60%, 1.0);
+  padding-bottom: 2px;
+  background-image: linear-gradient(to bottom right,
+      hsla(0, 0%, 30%, 1.0), hsla(0, 0%, 20%, 1.0),
+      hsla(0, 0%, 10%, 1.0));
+}
+
+#div-art2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 7.55555555556%;
+}
+
+#art2-div1, #art2-div2, #art2-div3, #art2-div4 {
+  width: 22.55555555556%;
+  max-width: 275px;
+  height: 50%;
+  padding-top: 1px;
+  border: 1px solid hsla(0, 0%, 60%, 1.0);
+}
+
+#div-art2 table {
+  border: 2px solid hsla(0, 0%, 40%, 1.0);
+}
+
+#div-art2 td {
+  height: auto;
+  border: 1px solid hsla(0, 0%, 80%, 1.0);
+}
+
+#div-art3 {
+  padding-top: 10px;
+}
+/* article 3 section */
+#div-art3 h3 {
+  width: 30%
+}
+
+#div-art3 p {
+  color: hsla(0, 0%, 80%, 1.0);
+}
+/* form section */
+#form-div {
+  display: block;
+  height: auto !important;
+  justify-content: center;  
+  text-align: center;
+  appearance: none;
+}
+/* for pic table */
+#nothing-gallery {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+#gallery-h2, #art2-h2 {
+  width: 89%;
+  margin: 0 auto;
+}
+/* page footer */
+#footer-em {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  font-weight: 900;
+  color: hsla(180, 80%, 50%, 1.0);
+}
+
+#page-footer a {
+  color: hsla(0, 0%, 70%, 1.0);
+  text-decoration: none;
+}
+
+#check-box-small {
+  font-size: .7em ;
+}
+
+/* adjustments for screen size */
+@media screen and (max-width: 800px) {
+
+  /* below 801 px */
+  #art2-div1, #art2-div2, #art2-div3, #art2-div4 {
+    width: 45%;
+  }
+
+  td {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  /* below 651 px */
+  #div-art1, #div-art2 {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  #art2-div1, #art2-div2, #art2-div3, #art2-div4 {
+    width: 90%;
+  }
+
+  td {
+    height: 100px;
+  }
+
+  #art1-div2 {
+    padding-left: 0%;
+  }
+}
