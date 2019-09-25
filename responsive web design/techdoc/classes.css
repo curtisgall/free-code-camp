@@ -1,0 +1,116 @@
+/* main classes */
+.main-section p:first-letter {
+  display: block;
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 90%;
+  margin-right: 5px;
+  margin-bottom: -2px;
+  margin-top: 5px;
+}
+
+.main-section p {
+  width: 95%;
+  text-align: justify;
+}
+
+
+.code-box {
+  width: 17em;
+  background: hsla(50, 50%, 40%, 1);
+  margin-bottom: 1%;
+  padding: .5em;
+  border-radius: .25rem;
+}
+
+.code-box-hsla {
+  width: 24em;
+  margin-bottom: 1%;
+  padding: .4em;
+  border-radius: .25rem;
+  background-image: linear-gradient(
+      hsla(30, 50%, 40%, 0.0), hsla(30, 50%, 40%, 0.2),
+      hsla(30, 50%, 40%, 0.4), hsla(30, 50%, 40%, 0.6),
+      hsla(30, 50%, 40%, 0.8), hsla(30, 50%, 40%, 1.0));
+}
+
+.code-box-hsla2 {
+  width: 24em;
+  margin-bottom: 1%;
+  padding: .4em;
+  border-radius: .25rem;
+  color: hsla(60, 20%, 100%, 1);
+  background-image: linear-gradient(to bottom right,
+      hsla(60, 20%, 0%, 1), hsla(60, 20%, 10%, 1),
+      hsla(60, 20%, 20%, 1), hsla(60, 20%, 30%, 1),
+      hsla(60, 20%, 40%, 1), hsla(60, 20%, 50%, 1),
+      hsla(60, 20%, 60%, 1), hsla(60, 20%, 70%, 1),
+      hsla(60, 20%, 80%, 1), hsla(60, 20%, 90%, 1));
+}
+
+.shape-text {
+  font-size: 175%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 375%;
+  margin-bottom: 1%;
+}
+
+.shape-text-triangle {
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 500%;
+  margin-bottom: 1%;
+}
+
+.b-circle {
+  margin-left: .2em;
+  line-height: 4.5em;
+}
+
+.b-diamond {
+  font-size: 85%;
+  display: block;
+  position: relative;
+  left: .25em;
+  bottom: .65em;
+  transform: rotate(45deg);
+}
+
+.b-trapezium {
+  position: relative;
+  left: .25em;
+}
+
+.b-parallelogram {
+  display: block;
+  position: relative;
+  left: .2em;
+  bottom: .5em;
+  transform: skew(-30deg);
+}
+
+.b-up {
+  position: relative;
+  left: .2em;
+}
+
+.b-down {
+  position: relative;
+  right: .45em;
+  bottom: 5.5em;
+}
+
+.b-left {
+  position: relative;
+  left: 2.5em;
+  bottom: 2.5em;
+}
+
+.b-right {
+  position: relative;
+  right: 3.2em;
+  bottom: 2.5em;
+}
